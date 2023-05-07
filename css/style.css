@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/ttf/Lato-Regular.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/ttf/Lato-Bold.ttf');
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Lato';
+}
+
+/* GLOBAL */
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* HEADER */
+
+.logo {
+    width: 30%;
+    border-radius: 100%;
+    object-fit: contain;
+}
+
+.header {
+    background-color: rgb(24, 106, 59);
+    padding: 10px 20px;
+}
+
+.header__container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__container h2 {
+    padding: 10px;
+}
+
+.header__container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__container-nav li {
+    margin: 0 10px;
+}
+
+.header__container-nav li a {
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: rgba(130, 224, 170, 2);
+    border: solid 2px black;
+    padding: 5px 10px;
+}
+
+.header__container-nav li a:hover {
+    color: white;
+    border: solid 2px white;
+}
+
+/* MAIN */
+
+.index {
+    background-color: rgb(171, 235, 198);
+    background-image: url(../assets/images/index.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.index__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.index_container-info {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.index_container-info h1 {
+    font-weight: bold;
+}
+
+.index_container-info p {
+
+}
+
+.index__container-info a {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+/* CARDS */
+
+.card {
+    background-color: rgb(35, 155, 86);
+}
+
+.card__data {
+    width: 100%;
+    padding: 15px 30px;
+    margin: 10px;
+    border: 4px white;
+}
+
+.card__data h2 {
+    font-weight: bold;
+}
+
+.card__data p {
+    font-weight: bold;
+}
+
+.card__data a {
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: rgba(130, 224, 170, 2);
+    border: solid 2px black;
+    padding: 5px 10px;
+}
+
+.card__data a:hover {
+    color: white;
+    border: solid 2px white;
+}
+
+/* FOOTER */
+
+.whatsapp a img {
+    display: flex;
+    justify-content: end;
+    position: sticky;
+}
