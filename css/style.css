@@ -55,7 +55,6 @@ ul {
 .header__container h2 {
     font-weight: bold;
     color: rgba(130, 224, 170, 2);
-
 }
 
 .header__container-nav {
@@ -136,6 +135,7 @@ ul {
 /* CARDS */
 
 .card {
+    max-width: 1500px;
     background-color: rgba(190, 224, 170, 0.7)
 }
 
@@ -203,7 +203,34 @@ ul {
     font-weight: bold;
 }
 
+/* CASI FOOTER */
+
+.nofoot {
+    height: 200px;
+    background-color: rgba(29, 120, 72, 0.8);
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nofoot h3 {
+    font-weight: bold;
+    font-size: 30px;
+    color: lightgray;
+}
+
 /* FOOTER */
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot small {
+    font-weight: bold;
+    font-style: italic;
+}
 
 .whatsapp a img {
     margin: 10px;
