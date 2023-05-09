@@ -54,12 +54,11 @@ ul {
 
 .header__container h2 {
     font-weight: bold;
-    color: rgba(130, 224, 170, 2);
+    color: rgb(130, 224, 170);
 }
 
 .header__container-nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -71,7 +70,7 @@ ul {
     color: black;
     font-weight: bold;
     border-radius: 15px;
-    background-color: rgba(130, 224, 170, 2);
+    background-color: rgb(130, 224, 170);
     border: solid 2px black;
     padding: 5px 10px;
 }
@@ -122,7 +121,7 @@ ul {
     color: black;
     font-weight: bold;
     border-radius: 15px;
-    background-color: rgba(130, 224, 170, 2);
+    background-color: rgb(130, 224, 170);
     border: solid 2px black;
     padding: 5px 10px;
 }
@@ -136,7 +135,7 @@ ul {
 
 .card {
     max-width: 1500px;
-    background-color: rgba(190, 224, 170, 0.7)
+    background-color: rgba(17, 39, 4, 0.425)
 }
 
 .card__data {
@@ -147,6 +146,7 @@ ul {
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 25px 35px -12px rgba(0, 0, 0, 0.8);
+    background-color: rgba(190, 224, 170, 0.5);
 }
 
 .card__data h2 {
@@ -161,8 +161,8 @@ ul {
     color: black;
     font-weight: bold;
     border-radius: 15px;
-    background-color: rgba(130, 224, 170, 2);
-    border: solid 2px black;
+    background-color: rgb(190, 224, 170);
+    /* border: solid 2px black; */
     padding: 5px 10px;
 }
 
@@ -185,7 +185,7 @@ ul {
     color: black;
     font-weight: bold;
     border-radius: 15px;
-    background-color: rgba(130, 224, 170, 2);
+    background-color: rgb(130, 224, 170);
     border: solid 2px black;
     padding: 5px 10px;
 }
