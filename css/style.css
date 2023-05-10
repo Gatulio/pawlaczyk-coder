@@ -34,12 +34,6 @@ ul {
 
 /* HEADER */
 
-.logo {
-    width: 30%;
-    border-radius: 100%;
-    object-fit: contain;
-}
-
 .header {
     background-color: rgba(29, 120, 72, 0.8);
     padding: 10px 20px;
@@ -79,7 +73,7 @@ ul {
     color: white;
 }
 
-/* MAIN */
+/* INDEX */
 
 .index {
     background-color: rgb(171, 235, 198);
@@ -127,6 +121,8 @@ ul {
 .index__container-info a:hover {
     color: white;
 }
+
+/* US */
 
 .us {
     
