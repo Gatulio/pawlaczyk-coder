@@ -1,40 +1,12 @@
+// utils
 @import './utils/variables';
+@import './utils/global';
 
+// components
+@import './components/header';
+@import './components/footer';
+
+// views
 @import './views/index.scss';
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-
-@font-face {
-    font-family: 'Lato';
-    src: url('./assets/ttf/Lato-Regular.ttf');
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Lato';
-    src: url('./assets/ttf/Lato-Bold.ttf');
-    font-weight: bold;
-}
-
-body {
-    font-family: 'Lato';
-    background-color:rgba(190, 224, 170, 0.5);
-}
-
-
-
-/* GLOBAL */
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
-}
-
+@import './views/contacto';
+@import './views/sobre-nosotros';
