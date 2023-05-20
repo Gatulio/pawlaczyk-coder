@@ -1,0 +1,213 @@
+/* HEADER */
+
+.header {
+    background-color: rgba(29, 120, 72, 0.8);
+    padding: 10px 20px;
+
+    &__container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-nav {
+            display: flex;
+            align-items: center;
+
+            li {
+                margin: 0 10px;
+
+                a {
+                    color: black;
+                    font-weight: bold;
+                    border-radius: 15px;
+                    background-color: rgb(190, 224, 170);
+                    padding: 5px 10px;
+
+                    &:hover {
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        h2 {
+            font-weight: bold;
+            color: rgb(130, 224, 170);
+        }
+    }
+}
+
+/* INDEX */
+
+.index {
+    background-color: rgb(171, 235, 198);
+    background-image: url(../assets/images/index.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &__container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+
+        &-info {
+            padding: 20px;
+            margin-bottom: 10px;
+            text-align: center;
+            background-color: rgba(190, 224, 170, 0.7);
+            border-radius: 50px;
+            box-shadow: 0 25px 35px -12px rgba(0, 0, 0, 0.8);
+
+            h1 {
+                font-weight: bold;
+            }
+
+            p {
+                font-weight: bold;
+            }
+
+            a {
+                color: black;
+                font-weight: bold;
+                border-radius: 15px;
+                background-color: rgb(190, 224, 170);
+                padding: 5px 10px;
+                
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+
+/* US */
+
+.us {
+    text-align: center;
+    font-weight: bold
+}
+
+/* CARDS */
+
+.card {
+    max-width: 1500px;
+    background-color: rgba(17, 39, 4, 0.425);
+
+    &__data {
+        width: 100%;
+        padding: 15px 30px;
+        margin: 10px;
+        border: 4px white;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0 25px 35px -12px rgba(0, 0, 0, 0.8);
+        background-color: rgba(190, 224, 170, 0.5);
+
+        h2 {
+            font-weight: bold;
+        }
+
+        p {
+            font-weight: bold;
+        }
+
+        a {
+            color: black;
+            font-weight: bold;
+            border-radius: 15px;
+            background-color: rgb(190, 224, 170);
+            padding: 5px 10px;
+
+            &:hover {
+                color: white;
+            }
+        }
+
+        &-2 {
+            width: 100%;
+            padding: 15px 30px;
+            margin: 10px;
+            border: 4px white;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 25px 35px -12px rgba(0, 0, 0, 0.8);
+
+            a {
+                color: black;
+                font-weight: bold;
+                border-radius: 15px;
+                background-color: rgb(190, 224, 170);
+                padding: 5px 10px;
+
+                &:hover {
+                    color: white;
+                }
+            }
+
+            h2 {
+                font-weight: bold;
+            }
+
+            p {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+/* CASI FOOTER */
+
+.nofoot {
+    height: 200px;
+    background-color: rgba(29, 120, 72, 0.8);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
+    h3 {
+        font-weight: bold;
+        font-size: 30px;
+        color: lightgray;
+        font-style: italic;
+    }
+
+    h4 {
+        font-weight: bold;
+        font-size: 20px;
+        color: lightgray;
+        font-style: italic;
+    }
+}
+
+/* FOOTER */
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    small {
+        font-weight: bold;
+        font-style: italic;
+    }
+}
+
+.whatsapp a img {
+    margin: 10px;
+    padding: 4px;
+    position: sticky;
+    border: solid 3px lightgreen;
+    border-radius: 30px;
+    top: 0px;
+}
