@@ -86,6 +86,8 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
+  align-items: center;
 }
 .index__container {
   max-width: 1200px;
@@ -118,6 +120,11 @@ ul {
 }
 .index__container-info a:hover {
   color: white;
+}
+
+.calecita {
+  display: flex;
+  align-items: center;
 }
 
 /* CARDS */

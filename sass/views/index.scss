@@ -6,6 +6,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
 
     &__container {
         max-width: 1200px;
@@ -44,6 +46,11 @@
             }
         }
     }
+}
+
+.calecita {
+    display: flex;
+    align-items: center;
 }
 
 /* CARDS */
